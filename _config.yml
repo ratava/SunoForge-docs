@@ -2,8 +2,8 @@ title: SunoForge Docs
 description: >-
   Documentation for SunoForge — a browser-based AI song creation tool
   that uses AI to generate lyrics, chord progressions, and production guidance.
-baseurl: "/SunoForge-docs"
-url: "https://ratava.github.io"
+baseurl: ""
+url: "https://docs.sunoforge.app"
 
 theme: just-the-docs
 
