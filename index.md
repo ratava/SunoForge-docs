@@ -8,7 +8,7 @@ permalink: /
 
 # SunoForge
 
-![SunoForge logo](https://raw.githubusercontent.com/ratava/SunoForge/main/images/logo.webp)
+<img src="https://raw.githubusercontent.com/ratava/SunoForge/main/images/logo.webp" alt="SunoForge logo" style="width: 33%;" />
 
 ---
 
