@@ -100,4 +100,4 @@ Click the debug indicator (shown when debug mode is active) to export the full s
 
 ---
 
-*Previous: [Right Panel Tabs](right-panel-tabs.md) · Next: [Tips & Best Practices](../tips-and-best-practices.md)*
+*Previous: [Right Panel Tabs](right-panel-tabs.md) · Next: [Cover Image Prompt](cover-image-prompt.md)*

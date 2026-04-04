@@ -6,8 +6,6 @@ description: "SunoForge — browser-based AI song creation tool"
 permalink: /
 ---
 
-# SunoForge
-
 <img src="https://raw.githubusercontent.com/ratava/SunoForge/main/images/logo.webp" alt="SunoForge logo" style="width: 33%;" />
 
 ---
@@ -67,11 +65,14 @@ No installation is required. SunoForge runs entirely in your browser.
 | Page | Description |
 | --- | --- |
 | [Getting Started](getting-started.md) | API key setup, model selection, quick start guide |
-| [Left Panel Tabs](left-panel-tabs.md) | Settings, Vocal, Structure, Sound, and Lyrics configuration |
+| [Left Panel Tabs](left-panel-tabs.md) | Settings, Vocal, Structure, Sound, Lyrics, and Presets |
 | [Right Panel Tabs](right-panel-tabs.md) | Output, Chords, and History panels |
 | [Key Features](key-features.md) | Analyze, Export modal, and Debug mode |
+| [Cover Image Prompt](cover-image-prompt.md) | AI-generated cover art image prompts |
 | [Tips & Best Practices](tips-and-best-practices.md) | Recommended workflows and pro tips |
+| [Suno Integration](suno-integration.md) | Exporting your song directly into Suno |
+| [Google Drive Sync](google-drive-sync.md) | Sync history and settings across browsers via Google Drive |
 | [Interface Language](interface-language.md) | Supported UI languages and switching |
 | [Privacy & Security](privacy-and-security.md) | API key storage and data handling |
-| [Suno Integration](suno-integration.md) | Exporting your song directly into Suno |
+| [Mobile Version](mobile-version.md) | Touch-optimised mobile interface |
 | [FAQ](faq.md) | Frequently asked questions |

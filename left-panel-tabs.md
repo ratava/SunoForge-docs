@@ -59,26 +59,29 @@ Define vocal characteristics and arrangements.
 
 ### Vocal Profiles
 
-When a vocal type is selected (not Instrumental):
+When a vocal type is selected (not Instrumental), each vocal part can be configured independently:
 
 | Option | Choices |
 | --- | --- |
-| **Gender** | Male, Female, Both |
-| **Accent** | America, Australia, British, New Zealand, Spanish, French, Italian, German, Russian, Japanese, Chinese, Korean, African, Jamaican or Custom |
-| **Style** | Clean, Gritty, Deep, Breathy, Airy, Ethereal, Raspy, Smooth, Powerful, Falsetto, High-Pitched, Husky, Sultry, Restrained, Dynamic, Wide Ranged, Vocalization, Robotic, Autotuned, Pitched Vocals, Custom |
+| **Gender** | Male, Female |
+| **Range** | Male: Bass, Baritone, Tenor, Countertenor (or custom) · Female: Contralto, Mezzo-Soprano, Soprano (or custom) |
+| **Accent** | American, Australian, British, New Zealand, Spanish, French, Italian, German, Russian, Japanese, Chinese, Korean, African, Jamaican, or custom |
+| **Style** | Clean, Gritty, Deep, Breathy, Airy, Etherial, Raspy, Smooth, Powerful, Falsetto, High-Pitched, Husky, Sultry, Restrained, Dynamic, Wide Vocal Range, Vocalization, Robotic, Autotuned, Pitched Vocals, or custom |
+
+For duo vocal types, each of the two vocal parts gets its own independent profile block.
 
 ### Choir / Backing Vocals
 
-Optionally add a choir or backing vocals:
+Optionally add a choir or backing vocals to any non-Instrumental track:
 
 - Enable/disable toggle
-- Ensemble size (small/medium/large/extra large)
+- Ensemble size: Small, Medium, Large, or Extra Large
 
 | Option | Choices |
 | --- | --- |
 | **Gender** | Male, Female, Both |
-| **Accent** | America, Australia, British, New Zealand, Spanish, French, Italian, German, Russian, Japanese, Chinese, Korean, African, Jamaican or Custom |
-| **Style** | Clean, Gritty, Deep, Breathy, Airy, Ethereal, Raspy, Smooth, Powerful, Falsetto, High-Pitched, Husky, Sultry, Restrained, Dynamic, Wide Ranged, Vocalization, Robotic, Autotuned, Pitched Vocals, Custom |
+| **Accent** | American, Australian, British, New Zealand, Spanish, French, Italian, German, Russian, Japanese, Chinese, Korean, African, Jamaican, or custom |
+| **Style** | Clean, Gritty, Deep, Breathy, Airy, Etherial, Raspy, Smooth, Powerful, Falsetto, High-Pitched, Husky, Sultry, Restrained, Dynamic, Wide Vocal Range, Vocalization, Robotic, Autotuned, Pitched Vocals, or custom |
 
 ---
 
@@ -204,6 +207,28 @@ Your verse here...
 [Chorus]
 Your chorus...
 ```
+
+---
+
+---
+
+## 📌 Song Presets
+
+Located at the bottom of the Settings tab, Song Presets let you save your current configuration and reload it at any time.
+
+### What a Preset Saves
+
+A preset captures a snapshot of **all settings** across every tab — Genre, Mood, Goal, Rhythm, Groove Feel, Vocal, Structure, Sound, AI Mode — but deliberately **excludes** the Song Title, Concept/Story, and any pasted Lyrics. This lets you store a production template and reuse it across different song ideas.
+
+### Actions
+
+| Action | How |
+| --- | --- |
+| **Save Preset** | Enter a name in the text field and click **Save Preset** |
+| **Load Preset** | Select a preset from the dropdown and click **Load** — your current title, concept, and lyrics are preserved |
+| **Delete Preset** | Select a preset and click **Delete** — requires confirmation |
+
+Presets are stored in your browser's `localStorage` and are also included in Google Drive sync if enabled.
 
 ---
 
