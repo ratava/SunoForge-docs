@@ -1,24 +1,23 @@
 ---
-layout: default
+layout: article
 title: Privacy & Security
-nav_order: 7
----
-
-# Privacy & Security
-
+aside:
+  toc: true
+sidebar:
+  nav: docs
 ---
 
 ## Data Storage
 
-All data in SunoForge is stored **locally in your browser**. Nothing is sent to any SunoForge servers.
+All data in SunoForge is stored **locally in your browser** and if enabled Google Drive. Nothing is sent to any SunoForge servers.
 
 | Data | Where stored |
 | --- | --- |
-| API keys (Google AI Studio, OpenRouter) | Browser `localStorage` (AES-256-GCM encrypted) |
-| Local LLM server address and auth key | Browser `localStorage` (AES-256-GCM encrypted) |
-| Song history | Browser `localStorage` |
-| UI language preference | Browser `localStorage` |
-| Selected model | Browser `localStorage` |
+| API keys (Google AI Studio, OpenRouter) | Browser `localStorage`/`Google Drive` (AES-256-GCM encrypted) |
+| Local LLM server address and auth key | Browser `localStorage`/`Google Drive` (AES-256-GCM encrypted) |
+| Song history | Browser `localStorage`/`Google Drive` |
+| UI language preference | Browser `localStorage`/`Google Drive` |
+| Selected model | Browser `localStorage`/`Google Drive` |
 
 ---
 
@@ -31,6 +30,9 @@ SunoForge only connects to the following external services — and only when you
 | `generativelanguage.googleapis.com` | Generation / model fetch | Google AI Studio (Gemini) API |
 | `openrouter.ai` | Generation / model fetch | OpenRouter API |
 | `esm.sh` | Page load | ES module CDN (GoogleGenAI SDK) |
+| `vercel.app` | Page load, Generation, Analsys | Anonymous Statistic |
+| `accounts.google.com` | Page Load / On Demand | Google Drive Authentication |
+| `www.googleapis.com/drive/v3/` | Setting / History Sync | Google Drive setting and history storage |
 | Your local LLM server address | Generation / model fetch | Local LLM (if configured) |
 
 No telemetry, analytics, or usage data is collected.
@@ -39,7 +41,7 @@ No telemetry, analytics, or usage data is collected.
 
 ## API Key Security
 
-API keys are encrypted in `localStorage` using **AES-256-GCM** with a per-browser key derived via PBKDF2. Keys are decrypted in memory only when needed for a request and are never written to storage in plaintext.
+API keys are encrypted in `localStorage` and `Google Drive` using **AES-256-GCM** with a per-browser key derived via PBKDF2. Keys are decrypted in memory only when needed for a request and are never written to storage in plaintext.
 
 **Recommendations:**
 
@@ -54,6 +56,4 @@ API keys are encrypted in `localStorage` using **AES-256-GCM** with a per-browse
 
 SunoForge is a completely client-side application. There is no SunoForge backend, login system, or user account. Your songs and settings exist only in your browser.
 
----
-
-*Previous: [Interface Language](interface-language.md) · Next: [FAQ](faq.md)*
+See <a href="https://sunoforge.app/Privacy_Policy.html" targer="_blank" alt="Privacy Policy">Privacy Policy</a> for full details on what data is stored and where.

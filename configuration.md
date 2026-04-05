@@ -1,10 +1,11 @@
 ---
-layout: default
-title: Getting Started
-nav_order: 2
+layout: article
+title: Configuration
+aside:
+  toc: true
+sidebar:
+  nav: docs
 ---
-
-# Getting Started
 
 ## Prerequisites
 
@@ -35,6 +36,8 @@ The **Model selector** in the top bar determines which provider is used for each
 
 ## Setup — Google AI Studio Key
 
+<div>{%- include extensions/youtube.html id='-xJKxCgP8mk' -%}</div>
+
 **[Get a Google AI Studio API key](https://aistudio.google.com/app/apikey)**
 
 1. Sign in with a Google account
@@ -53,6 +56,8 @@ Then in SunoForge:
 ---
 
 ## Setup — OpenRouter Key
+
+<div>{%- include extensions/youtube.html id='Tt9sCkUjDyQ' -%}</div>
 
 1. Create an account at [openrouter.ai](https://openrouter.ai)
 2. Go to **Keys** and create a new API key
@@ -133,6 +138,3 @@ The **Model** dropdown in the top bar lets you choose which AI model to use for 
 3. **Click Generate** — Let the AI handle the rest
 4. **Fine-tune** — Adjust Vocal, Sound, and other options for more control
 
----
-
-*Next: [Left Panel Tabs](left-panel-tabs.md)*

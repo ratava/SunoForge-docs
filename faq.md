@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: article
 title: FAQ
-nav_order: 9
----
-
-# FAQ
-
+aside:
+  toc: true
+sidebar:
+  nav: docs
 ---
 
 **Q: Do I need an internet connection?**
@@ -88,5 +87,3 @@ To help us reproduce and fix the problem:
 4. Attach the debug file to your issue report
 
 ---
-
-*Previous: [Privacy & Security](privacy-and-security.md)*

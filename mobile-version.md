@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: article
 title: Mobile Version
-nav_order: 8
+aside:
+  toc: true
+sidebar:
+  nav: docs
 ---
-
-# Mobile Version
 
 SunoForge includes a dedicated mobile interface optimised for phones and tablets.
 
@@ -55,7 +56,3 @@ The mobile version includes all features of the desktop version:
 ## API Bar
 
 Tap the top bar to expand the API configuration panel, which works identically to the desktop version — Google AI Studio key, OpenRouter key, Local/Remote OpenAI Server address, model selection, and Drive sync controls.
-
----
-
-*Previous: [FAQ](faq.md)*

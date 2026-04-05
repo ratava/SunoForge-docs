@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: article
 title: Tips & Best Practices
-nav_order: 1
-parent: Guides
----
-
-# Tips & Best Practices
-
+aside:
+  toc: true
+sidebar:
+  nav: docs
 ---
 
 ## 💡 Tips for Best Results

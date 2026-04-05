@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: article
 title: Guides
-nav_order: 4
-has_children: true
+aside:
+  toc: true
+sidebar:
+  nav: docs
 ---
 
 # Guides

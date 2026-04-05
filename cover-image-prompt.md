@@ -1,21 +1,18 @@
 ---
-layout: default
-title: Cover Image Prompt
-nav_order: 4
-parent: Reference
+layout: article
+title: Cover Image Prompt Generator
+aside:
+  toc: true
+sidebar:
+  nav: docs
 ---
-
-# Cover Image Prompt Generator
 
 After generating a song, SunoForge can generate a detailed image prompt for your cover art — ready to paste into any AI image generator (Midjourney, DALL-E, Stable Diffusion, etc.).
 
----
 
 ## How to Access
 
 The **Cover Image Prompt** button appears in the Output tab once a song has been generated. Click it to open the cover image modal.
-
----
 
 ## Options
 
@@ -85,7 +82,3 @@ Click **Copy Prompt to Clipboard** to copy it for use in your image generator of
 - Leave resolution unspecified if your image generator has its own resolution settings
 - Adding song title text in the prompt works best with image generators that support text rendering (e.g. DALL-E 3, Ideogram)
 - The "Additional Instructions" field is powerful — use it to specify a visual style: *"oil painting, muted earth tones, 1970s album art aesthetic"*
-
----
-
-*Previous: [Right Panel Tabs](right-panel-tabs.md) · Next: [Tips & Best Practices](../tips-and-best-practices.md)*

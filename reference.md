@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: article
 title: Reference
-nav_order: 3
-has_children: true
+aside:
+  toc: true
+sidebar:
+  nav: docs
 ---
 
 # Reference
@@ -11,7 +13,6 @@ Detailed reference for all SunoForge panels, tabs, and features.
 
 | Page | Description |
 | --- | --- |
-| [Left Panel Tabs](left-panel-tabs.md) | Settings, Vocal, Structure, Sound, Lyrics, and Presets |
-| [Right Panel Tabs](right-panel-tabs.md) | Output, Chords, and History panels |
-| [Key Features](key-features.md) | Analyze, Export modal, and Debug mode |
-| [Cover Image Prompt](cover-image-prompt.md) | AI-generated image prompts for cover art |
+| [Right Panel Tabs](right-panel-tabs) | Output, Chords, and History panels |
+| [Key Features](key-features) | Analyze, Export modal, and Debug mode |
+| [Cover Image Prompt](cover-image-prompt) | AI-generated image prompts for cover art |

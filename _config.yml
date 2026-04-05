@@ -1,44 +1,43 @@
-title: SunoForge Docs
+﻿title: SunoForge Docs
 description: >-
   Documentation for SunoForge — a browser-based AI song creation tool
   that uses AI to generate lyrics, chord progressions, and production guidance.
 baseurl: ""
 url: "https://docs.sunoforge.app"
 
-theme: just-the-docs
+theme: jekyll-text-theme
 
-logo: "https://raw.githubusercontent.com/ratava/SunoForge/main/images/logo.webp"
+text_skin: dark
+highlight_theme: tomorrow-night
 
-search_enabled: true
+lang: en
+timezone: UTC
 
-color_scheme: dark
+repository: ratava/SunoForge-docs
 
-aux_links:
-  "Open SunoForge": "https://ratava.github.io/SunoForge/index.html"
+author:
+  type: organization
+  name: SunoForge
+  avatar: "https://raw.githubusercontent.com/ratava/SunoForge/main/images/logo.webp"
+  bio: "Browser-based AI song creation tool"
+  links:
+    github: ratava
 
-aux_links_new_tab: true
+license: CC-BY-NC-4.0
 
-heading_anchors: true
-
-back_to_top: true
-back_to_top_text: "Back to top"
-
-breadcrumbs: true
+toc:
+  selectors: "h1,h2,h3"
 
 permalink: pretty
 
-footer_content: >-
-  SunoForge Docs — licensed under
-  <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.
-  &nbsp;·&nbsp;
-  <a href="https://github.com/ratava/SunoForge">SunoForge on GitHub</a>
-
 plugins:
-  - jekyll-include-cache
   - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - .gitignore
   - README.md
+  - vendor/

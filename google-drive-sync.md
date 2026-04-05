@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: article
 title: Google Drive Sync
-nav_order: 5
+aside:
+  toc: true
+sidebar:
+  nav: docs
 ---
-
-# Google Drive Sync
 
 SunoForge can store your song history and settings in your Google Drive account, giving you access to your songs from any browser and keeping everything backed up automatically.
 
@@ -70,8 +71,4 @@ Any songs generated on either device will merge correctly — there is no confli
 
 Your Drive app data folder is private to SunoForge by Google's design. Google cannot read its contents; no other app or user can access it. SunoForge requests only the minimum OAuth scope required: `drive.appdata`.
 
-See [Privacy & Security](privacy-and-security.md) for full details on what data is stored and where.
-
----
-
-*Next: [Interface Language](interface-language.md)*
+See <a href="https://sunoforge.app/Privacy_Policy.html" targer="_blank" alt="Privacy Policy">Privacy Policy</a> for full details on what data is stored and where.

@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: article
 title: Key Features
-nav_order: 3
-parent: Reference
----
-
-# Key Features
-
+aside:
+  toc: true
+sidebar:
+  nav: docs
 ---
 
 ## 🔍 Analyze
@@ -66,7 +64,7 @@ Your chorus...
 
 ---
 
-## 🐛 Debug Mode
+## Debug Mode
 
 Advanced troubleshooting and session logging.
 
@@ -98,6 +96,3 @@ Click the debug indicator (shown when debug mode is active) to export the full s
 
 > **Bug reports:** Enable debug mode, reproduce the issue, download the debug logs, and attach the file to your GitHub issue.
 
----
-
-*Previous: [Right Panel Tabs](right-panel-tabs.md) · Next: [Cover Image Prompt](cover-image-prompt.md)*

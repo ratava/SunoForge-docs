@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: article
 title: Interface Language
-nav_order: 6
+aside:
+  toc: true
+sidebar:
+  nav: docs
 ---
-
-# Interface Language
 
 The SunoForge UI is fully translated into **11 languages**, selectable via the flag dropdown in the top-right corner of the header.
 
@@ -45,6 +46,3 @@ These are two independent settings:
 
 You can use the app entirely in German but generate lyrics in Japanese. Changing the UI language does not affect the lyrics language, and vice versa.
 
----
-
-*Previous: [Suno Integration](suno-integration.md) · Next: [Privacy & Security](privacy-and-security.md)*

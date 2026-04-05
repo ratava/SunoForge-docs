@@ -1,0 +1,54 @@
+﻿# Header navigation
+header:
+  - title: Home
+    url:   /
+  - title: Docs
+    url:   /configuration/
+  - title: SunoForge App
+    url:   https://sunoforge.app
+    target: _blank
+
+# Sidebar navigation for docs pages
+docs:
+  - title: Getting Started
+    children:
+      - title: Configuration
+        url:   /configuration/
+  - title: Left Panel Tabs
+    children:
+      - title: Settings
+        url:   /left-panel-settings/
+      - title: Vocal
+        url:   /left-panel-vocal/
+      - title: Structure
+        url:   /left-panel-structure/
+      - title: Sound
+        url:   /left-panel-sound/
+      - title: Lyrics
+        url:   /left-panel-lyrics/
+      - title: Song Presets
+        url:   /left-panel-presets/
+  - title: Reference
+    children:
+      - title: Right Panel Tabs
+        url:   /right-panel-tabs/
+      - title: Key Features
+        url:   /key-features/
+      - title: Cover Image Prompt
+        url:   /cover-image-prompt/
+  - title: Guides
+    children:
+      - title: Tips & Best Practices
+        url:   /tips-and-best-practices/
+      - title: Suno Integration
+        url:   /suno-integration/
+  - title: Google Drive Sync
+    url:   /google-drive-sync/
+  - title: Interface Language
+    url:   /interface-language/
+  - title: Privacy & Security
+    url:   /privacy-and-security/
+  - title: Mobile Version
+    url:   /mobile-version/
+  - title: FAQ
+    url:   /faq/

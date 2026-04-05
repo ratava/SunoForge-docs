@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: article
 title: Right Panel Tabs
-nav_order: 2
-parent: Reference
+aside:
+  toc: true
+sidebar:
+  nav: docs
 ---
 
 # Right Panel Tabs
@@ -92,7 +94,3 @@ Accepts two file types:
 ### Clear All
 
 Removes all saved history after confirmation.
-
----
-
-*Previous: [Left Panel Tabs](left-panel-tabs.md) · Next: [Key Features](key-features.md)*
