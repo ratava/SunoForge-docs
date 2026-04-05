@@ -64,5 +64,3 @@ docs:
         url:   /faq/
       - title: Bug Submission
         url:   /bug-submission/
-  - title: FAQ
-    url:   /faq/

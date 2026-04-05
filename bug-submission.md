@@ -5,7 +5,7 @@ sidebar:
   nav: "docs"
 ---
 
-Found a bug? Here's how to report it so it can be reproduced and fixed quickly.
+Found a bug or and a problem you can fix? Here's how to report it so it can be reproduced and fixed quickly.
 
 ---
 
