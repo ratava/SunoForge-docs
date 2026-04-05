@@ -5,8 +5,6 @@ sidebar:
   nav: "docs"
 ---
 
-# Reference
-
 Detailed reference for all SunoForge panels, tabs, and features.
 
 | Page | Description |

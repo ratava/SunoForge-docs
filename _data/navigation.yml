@@ -16,8 +16,6 @@ docs:
     children:
       - title: Configuration
         url:   /configuration/
-      - title: Action Buttons
-        url:   /action-buttons/
   - title: Left Panel Tabs
     children:
       - title: Settings
@@ -32,10 +30,18 @@ docs:
         url:   /left-panel-lyrics/
       - title: Song Presets
         url:   /left-panel-presets/
+  - title: Right Panel
+    children:
+      - title: Action Buttons
+        url:   /right-panel-action-buttons/
+      - title: Output Tab
+        url:   /right-panel-output/
+      - title: Chords Tab
+        url:   /right-panel-chords/
+      - title: History Tab
+        url:   /right-panel-history/
   - title: Reference
     children:
-      - title: Right Panel Tabs
-        url:   /right-panel-tabs/
       - title: Key Features
         url:   /key-features/
       - title: Cover Image Prompt
