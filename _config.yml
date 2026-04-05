@@ -41,3 +41,8 @@ exclude:
   - .gitignore
   - README.md
   - vendor/
+
+search:
+  provider: default
+
+sources: unpkg
