@@ -88,9 +88,7 @@ Click the debug indicator (shown when debug mode is active) to export the full s
 ### When to Use
 
 - Troubleshooting generation failures
-- Reporting bugs on the [GitHub Issues page](https://github.com/ratava/SunoForge/issues)
 - Understanding how the AI interpreted your settings
 - Tracking section-by-section regeneration behaviour
-
-> **Bug reports:** Enable debug mode, reproduce the issue, download the debug logs, and attach the file to your GitHub issue.
+- [Reporting bugs](/bug-submission/) — enable debug mode, reproduce the issue, download the log, and attach it to your GitHub issue
 

@@ -75,13 +75,6 @@ SunoForge generates lyrics and suggestions using AI. Review [Google's Gemini AI 
 
 **Q: How do I report a bug?**
 
-Submit bug reports via the [GitHub Issues page](https://github.com/ratava/SunoForge/issues).
-
-To help us reproduce and fix the problem:
-
-1. Enable Debug Mode (double-click the logo)
-2. Reproduce the issue
-3. Click the debug indicator to download the debug logs
-4. Attach the debug file to your issue report
+See the [Bug Submission](/bug-submission/) page for a step-by-step guide, including how to capture debug logs.
 
 ---

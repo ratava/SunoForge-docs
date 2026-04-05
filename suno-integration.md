@@ -64,7 +64,3 @@ This is designed to be pasted directly into Suno's **Style of Music** field.
 - Use **Copy Lyrics** (not Copy All) to get clean lyrics without metadata lines
 - Suno works best with clearly labelled song sections: `[Verse]`, `[Chorus]`, `[Bridge]`, etc. — SunoForge outputs these automatically
 - If Suno ignores parts of the style prompt, try simplifying — fewer, stronger keywords often work better
-
----
-
-*Previous: [Tips & Best Practices](tips-and-best-practices.md) · Next: [Interface Language](../interface-language.md)*

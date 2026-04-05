@@ -16,7 +16,9 @@ docs:
     children:
       - title: Configuration
         url:   /configuration/
-  - title: Left Panel Tabs
+      - title: Interface Language
+        url:   /interface-language/        
+  - title: Left Panel
     children:
       - title: Settings
         url:   /left-panel-settings/
@@ -40,25 +42,27 @@ docs:
         url:   /right-panel-chords/
       - title: History Tab
         url:   /right-panel-history/
-  - title: Reference
+  - title: Features
     children:
       - title: Key Features
         url:   /key-features/
+      - title: Google Drive Sync
+        url:   /google-drive-sync/        
       - title: Cover Image Prompt
         url:   /cover-image-prompt/
+      - title: Mobile Version
+        url:   /mobile-version/        
   - title: Guides
     children:
       - title: Tips & Best Practices
         url:   /tips-and-best-practices/
-      - title: Suno Integration
-        url:   /suno-integration/
-  - title: Google Drive Sync
-    url:   /google-drive-sync/
-  - title: Interface Language
-    url:   /interface-language/
   - title: Privacy & Security
     url:   /privacy-and-security/
-  - title: Mobile Version
-    url:   /mobile-version/
+  - title: Support
+    children:
+      - title: FAQ
+        url:   /faq/
+      - title: Bug Submission
+        url:   /bug-submission/
   - title: FAQ
     url:   /faq/

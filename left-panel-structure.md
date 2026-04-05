@@ -24,5 +24,3 @@ Each genre includes multiple authentic structure templates:
 - Examples: "Standard Rock", "12-Bar Blues", "AABA Jazz", "Trap Anthem", "Bolero Form"
 - Structures update automatically when you change genres
 - Each preset includes a flow diagram and description
-
-*Previous: [Vocal Tab](left-panel-vocal.md) · Next: [Sound Tab](left-panel-sound.md)*

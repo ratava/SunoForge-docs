@@ -5,8 +5,6 @@ sidebar:
   nav: "docs"
 ---
 
-## 💡 Tips for Best Results
-
 ### 1. Start Simple
 
 - Begin with just a **Title** and **Concept**
@@ -31,19 +29,13 @@ sidebar:
 - Use the **↻ Regen** button on individual sections
 - All other sections are preserved
 
-### 5. Save Frequently
-
-- Use the **History** tab to save versions as you work
-- Export to `.txt` files for external backups
-- Previously exported songs can be re-imported at any time
-
-### 6. Vocal Configuration
+### 5. Vocal Configuration
 
 - For specific vocal styles, configure the **Vocal** tab details
 - Leave fields as "AI Choose" for automatic selection
 - **Instrumental** mode provides performance directions instead of lyrics
 
-### 7. Sound Layering
+### 6. Sound Layering
 
 Combine multiple Sound tab options for a rich sonic palette:
 
@@ -111,6 +103,3 @@ Best for: Improving a Suno output or another AI-generated song.
 3. **Lyrics Tab** — Paste the existing lyrics and choose "Rewrite/improve" or "Keep"
 4. Generate with your refinements applied
 
----
-
-*Previous: [Key Features](../key-features.md) · Next: [Suno Integration](suno-integration.md)*
