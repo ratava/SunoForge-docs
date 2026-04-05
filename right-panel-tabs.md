@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: single
 title: Right Panel Tabs
-aside:
-  toc: true
 sidebar:
-  nav: docs
+  nav: "docs"
 ---
 
 # Right Panel Tabs

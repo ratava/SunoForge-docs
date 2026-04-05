@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: single
 title: Tips & Best Practices
-aside:
-  toc: true
 sidebar:
-  nav: docs
+  nav: "docs"
 ---
 
 ## 💡 Tips for Best Results

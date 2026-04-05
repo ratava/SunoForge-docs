@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: single
 title: Suno Integration
-aside:
-  toc: true
 sidebar:
-  nav: docs
+  nav: "docs"
 ---
 
 SunoForge is designed to export songs in a format ready for direct use in [Suno](https://suno.com).

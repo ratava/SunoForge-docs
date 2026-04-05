@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: single
 title: Reference
-aside:
-  toc: true
 sidebar:
-  nav: docs
+  nav: "docs"
 ---
 
 # Reference

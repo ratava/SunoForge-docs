@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: single
 title: "Structure Tab"
-aside:
-  toc: true
 sidebar:
-  nav: docs
+  nav: "docs"
 ---
 
 Choose or build your song's structural blueprint.

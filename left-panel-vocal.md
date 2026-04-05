@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: single
 title: "Vocal Tab"
-aside:
-  toc: true
 sidebar:
-  nav: docs
+  nav: "docs"
 ---
 
 Define vocal characteristics and arrangements.
@@ -23,26 +21,12 @@ Define vocal characteristics and arrangements.
 
 When a vocal type is selected (not Instrumental), each vocal part can be configured independently:
 
-<div class="grid grid-header">
-  <div class="cell cell--2"><strong>Option</strong></div>
-  <div class="cell cell--auto"><strong>Choices</strong></div>
-</div>
-<div class="grid">
-  <div class="cell cell--2"><strong>Gender</strong></div>
-  <div class="cell cell--auto">Male, Female</div>
-</div>
-<div class="grid">
-  <div class="cell cell--2"><strong>Range</strong></div>
-  <div class="cell cell--auto">Male: Bass, Baritone, Tenor, Countertenor (or custom) · Female: Contralto, Mezzo-Soprano, Soprano (or custom)</div>
-</div>
-<div class="grid">
-  <div class="cell cell--2"><strong>Accent</strong></div>
-  <div class="cell cell--auto">American, Australian, British, New Zealand, Spanish, French, Italian, German, Russian, Japanese, Chinese, Korean, African, Jamaican, or custom</div>
-</div>
-<div class="grid">
-  <div class="cell cell--2"><strong>Style</strong></div>
-  <div class="cell cell--auto">Clean, Gritty, Deep, Breathy, Airy, Etherial, Raspy, Smooth, Powerful, Falsetto, High-Pitched, Husky, Sultry, Restrained, Dynamic, Wide Vocal Range, Vocalization, Robotic, Autotuned, Pitched Vocals, or custom</div>
-</div>
+| Option | Choices |
+|---|---|
+| **Gender** | Male, Female |
+| **Range** | Male: Bass, Baritone, Tenor, Countertenor (or custom) · Female: Contralto, Mezzo-Soprano, Soprano (or custom) |
+| **Accent** | American, Australian, British, New Zealand, Spanish, French, Italian, German, Russian, Japanese, Chinese, Korean, African, Jamaican, or custom |
+| **Style** | Clean, Gritty, Deep, Breathy, Airy, Etherial, Raspy, Smooth, Powerful, Falsetto, High-Pitched, Husky, Sultry, Restrained, Dynamic, Wide Vocal Range, Vocalization, Robotic, Autotuned, Pitched Vocals, or custom |
 
 For duo vocal types, each of the two vocal parts gets its own independent profile block.
 
@@ -50,22 +34,10 @@ For duo vocal types, each of the two vocal parts gets its own independent profil
 
 Optionally add a choir or backing vocals to any non-Instrumental track:
 
-- Enable/disable toggle
-- Ensemble size: Small, Medium, Large, or Extra Large
-
-<div class="grid grid-header">
-  <div class="cell cell--2"><strong>Option</strong></div>
-  <div class="cell cell--auto"><strong>Choices</strong></div>
-</div>
-<div class="grid">
-  <div class="cell cell--2"><strong>Gender</strong></div>
-  <div class="cell cell--auto">Male, Female, Both</div>
-</div>
-<div class="grid">
-  <div class="cell cell--2"><strong>Accent</strong></div>
-  <div class="cell cell--auto">American, Australian, British, New Zealand, Spanish, French, Italian, German, Russian, Japanese, Chinese, Korean, African, Jamaican, or custom</div>
-</div>
-<div class="grid">
-  <div class="cell cell--2"><strong>Style</strong></div>
-  <div class="cell cell--auto">Clean, Gritty, Deep, Breathy, Airy, Etherial, Raspy, Smooth, Powerful, Falsetto, High-Pitched, Husky, Sultry, Restrained, Dynamic, Wide Vocal Range, Vocalization, Robotic, Autotuned, Pitched Vocals, or custom</div>
-</div>
+| Option | Choices |
+|---|---|
+| **Gender** | Male, Female, Both |
+| **Ensemble Size** | 4 Part Ensemble, Small, Medium, Large, or Extra Large |
+| **Vocal Range** | STAB Soprano/Tenor/Alto/Bass, Bass, Baritone, Tenor, Countertenor, Contralto, Mezzo-Sporano, Soprano |
+| **Accent** | American, Australian, British, New Zealand, Spanish, French, Italian, German, Russian, Japanese, Chinese, Korean, African, Jamaican, or custom |
+| **Style** | Clean, Gritty, Deep, Breathy, Airy, Etherial, Raspy, Smooth, Powerful, Falsetto, High-Pitched, Husky, Sultry, Restrained, Dynamic, Wide Vocal Range, Vocalization, Robotic, Autotuned, Pitched Vocals, or custom |

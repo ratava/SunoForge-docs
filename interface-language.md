@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: single
 title: Interface Language
-aside:
-  toc: true
 sidebar:
-  nav: docs
+  nav: "docs"
 ---
 
 The SunoForge UI is fully translated into **11 languages**, selectable via the flag dropdown in the top-right corner of the header.

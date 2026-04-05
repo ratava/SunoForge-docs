@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: single
 title: Privacy & Security
-aside:
-  toc: true
 sidebar:
-  nav: docs
+  nav: "docs"
 ---
 
 ## Data Storage

@@ -1,5 +1,5 @@
-﻿# Header navigation
-header:
+﻿# Masthead navigation
+main:
   - title: Home
     url:   /
   - title: Docs
@@ -10,6 +10,8 @@ header:
 
 # Sidebar navigation for docs pages
 docs:
+  - title: Home
+    url:   /
   - title: Getting Started
     children:
       - title: Configuration

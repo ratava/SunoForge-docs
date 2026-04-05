@@ -5,10 +5,8 @@ description: >-
 baseurl: ""
 url: "https://docs.sunoforge.app"
 
-theme: jekyll-text-theme
-
-text_skin: dark
-highlight_theme: tomorrow-night
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: dark
 
 lang: en
 timezone: UTC
@@ -16,21 +14,23 @@ timezone: UTC
 repository: ratava/SunoForge-docs
 
 author:
-  type: organization
   name: SunoForge
   avatar: "https://raw.githubusercontent.com/ratava/SunoForge/main/images/logo.webp"
   bio: "Browser-based AI song creation tool"
   links:
-    github: ratava
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ratava"
 
-license: CC-BY-NC-4.0
+logo: "https://raw.githubusercontent.com/ratava/SunoForge/main/images/logo.webp"
 
-toc:
-  selectors: "h1,h2,h3"
+search: true
+search_full_content: true
 
 permalink: pretty
 
 plugins:
+  - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
@@ -42,7 +42,14 @@ exclude:
   - README.md
   - vendor/
 
-search:
-  provider: default
-
-sources: unpkg
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "docs"

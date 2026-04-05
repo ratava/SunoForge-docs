@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: single
 title: Key Features
-aside:
-  toc: true
 sidebar:
-  nav: docs
+  nav: "docs"
 ---
 
 ## 🔍 Analyze

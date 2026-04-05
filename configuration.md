@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: single
 title: Configuration
-aside:
-  toc: true
 sidebar:
-  nav: docs
+  nav: "docs"
 ---
 
 ## Prerequisites
@@ -36,7 +34,7 @@ The **Model selector** in the top bar determines which provider is used for each
 
 ## Setup — Google AI Studio Key
 
-<div>{%- include extensions/youtube.html id='-xJKxCgP8mk' -%}</div>
+{% include video id="-xJKxCgP8mk" provider="youtube" %}
 
 **[Get a Google AI Studio API key](https://aistudio.google.com/app/apikey)**
 
@@ -57,7 +55,7 @@ Then in SunoForge:
 
 ## Setup — OpenRouter Key
 
-<div>{%- include extensions/youtube.html id='Tt9sCkUjDyQ' -%}</div>
+{% include video id="Tt9sCkUjDyQ" provider="youtube" %}
 
 1. Create an account at [openrouter.ai](https://openrouter.ai)
 2. Go to **Keys** and create a new API key

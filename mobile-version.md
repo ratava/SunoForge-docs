@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: single
 title: Mobile Version
-aside:
-  toc: true
 sidebar:
-  nav: docs
+  nav: "docs"
 ---
 
 SunoForge includes a dedicated mobile interface optimised for phones and tablets.

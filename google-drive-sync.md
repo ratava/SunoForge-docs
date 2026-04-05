@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: single
 title: Google Drive Sync
-aside:
-  toc: true
 sidebar:
-  nav: docs
+  nav: "docs"
 ---
 
 SunoForge can store your song history and settings in your Google Drive account, giving you access to your songs from any browser and keeping everything backed up automatically.

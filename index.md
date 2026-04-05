@@ -1,26 +1,16 @@
 ---
-layout: article
-title: 
+layout: single
+title:
 description: "SunoForge — browser-based AI song creation tool"
 permalink: /
-aside:
-  toc: false
+toc: true
 sidebar:
-  nav: docs
+  nav: "docs"
 ---
-
-<div class="hero hero--center hero--dark" style="background-color: #123;">
-    <div class="hero__content">
-        <img src="https://licensebuttons.net/l/by-nc/4.0/80x15.png" alt="Logo CC-By-NC" />
-       
-        <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" alt="License: CC BY-NC 4.0"> This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License</a>
-  </div>
-</div>
-
 
 ## About SunoForge
 
-SunoForge is a comprehensive, browser-based song creation tool that uses AI to generate professional-quality lyrics, suggest chord progressions, and provide detailed production guidance. It is designed for use with [Suno AI](https://suno.com) or other music creation platforms.
+SunoForge is a comprehensive, browser-based song creation tool that uses AI to generate professional-quality lyrics, suggest chord progressions, and provide detailed production guidance. It is designed for use with [Suno](https://suno.com) or other music creation platforms.
 
 SunoForge supports the following AI providers:
 
@@ -30,13 +20,13 @@ SunoForge supports the following AI providers:
 
 No installation is required. SunoForge runs entirely in your browser.
 
-**[Open SunoForge](https://ratava.github.io/SunoForge/index.html)**
+**[Open SunoForge](https://sunoforge.app)**
 
 ---
 
 ## Key Features
 
-<div>{%- include extensions/youtube.html id='rCY5yB9RU2s' -%}</div>
+{% include video id="rCY5yB9RU2s" provider="youtube" %}
 
 ### Two Main Workflows
 

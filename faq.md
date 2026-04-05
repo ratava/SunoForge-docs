@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: single
 title: FAQ
-aside:
-  toc: true
 sidebar:
-  nav: docs
+  nav: "docs"
 ---
 
 **Q: Do I need an internet connection?**

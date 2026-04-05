@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: single
 title: Cover Image Prompt Generator
-aside:
-  toc: true
 sidebar:
-  nav: docs
+  nav: "docs"
 ---
 
 After generating a song, SunoForge can generate a detailed image prompt for your cover art — ready to paste into any AI image generator (Midjourney, DALL-E, Stable Diffusion, etc.).

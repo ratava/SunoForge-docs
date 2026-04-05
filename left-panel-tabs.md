@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: single
 title: Left Panel Tabs
-aside:
-  toc: false
 sidebar:
-  nav: docs
+  nav: "docs"
 ---
 
 The left panel contains five tabs for configuring your song before generation, plus Song Presets at the bottom of the Settings tab.
