@@ -16,6 +16,8 @@ docs:
     children:
       - title: Configuration
         url:   /configuration/
+      - title: Action Buttons
+        url:   /action-buttons/
   - title: Left Panel Tabs
     children:
       - title: Settings
