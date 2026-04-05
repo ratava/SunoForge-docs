@@ -26,6 +26,8 @@ logo: "https://raw.githubusercontent.com/ratava/SunoForge/main/images/logo.webp"
 
 search: true
 search_full_content: true
+lunr:
+  search_within_pages: true
 
 permalink: pretty
 
